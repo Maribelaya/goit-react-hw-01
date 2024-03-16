@@ -1,16 +1,20 @@
+import FriendListItem from "./FriendListItem";
+
 const FriendList = () => {
   const friends = [];
   return (
     <div>
-      {friends.map((name, isOnline) => (
-        <p key={friends.id}>
-          <img src="{avatar}" alt="Avatar" width="48" />
-          <p>{name}</p>
-          <p>{isOnline}</p>
-        </p>
-      ))}
+      {friends.map((friend) => {
+        return (
+          <FriendListItem
+            key={friend.id}
+            img={friend.avatar}
+            name={friend.name}
+            status={friend.isOnline}
+          />
+        );
+      })}
     </div>
   );
 };
-
 export default FriendList;
