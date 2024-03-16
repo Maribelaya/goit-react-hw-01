@@ -1,12 +1,12 @@
 // // src/components/Profile.jsx
 
-const Profile = ({ name, location, stats }) => {
+function Profile({ image, name, tag, location, stats }) {
   return (
     <div>
       <div>
-        <img src="{avatar}" alt={name} />
+        <img src={image} alt="User avatar" />
         <p>{name}</p>
-        <p>@pmarica</p>
+        <p>@{tag}</p>
         <p>{location}</p>
       </div>
       <ul>
@@ -25,6 +25,6 @@ const Profile = ({ name, location, stats }) => {
       </ul>
     </div>
   );
-};
+}
 
 export default Profile;
