@@ -1,10 +1,9 @@
 function FriendListItem(friends) {
   return (
-    <div>
-      return (
-      <FriendListItem friends={friends} />
+    <ul>
+      return (<li>FriendListItem friends={friends}</li>
       );
-    </div>
+    </ul>
   );
 }
 
