@@ -1,4 +1,4 @@
-function FriendList({ friends }) {
+const FriendList = ({ friends }) => {
   return (
     <div>
       {friends.map(({ id, avatar, name, isOnline }) => (
@@ -10,6 +10,6 @@ function FriendList({ friends }) {
       ))}
     </div>
   );
-}
+};
 
 export default FriendList;

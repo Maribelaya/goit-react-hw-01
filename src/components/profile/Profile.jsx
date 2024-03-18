@@ -1,6 +1,6 @@
 // // src/components/Profile.jsx
 
-function Profile({ image, name, tag, location, stats }) {
+const Profile = ({ image, name, tag, location, stats }) => {
   return (
     <div>
       <div>
@@ -25,6 +25,6 @@ function Profile({ image, name, tag, location, stats }) {
       </ul>
     </div>
   );
-}
+};
 
 export default Profile;
