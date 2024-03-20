@@ -1,0 +1,31 @@
+.profile {
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+  font-size: 20px;
+  border: 4px solid black;
+}
+.avatar {
+}
+
+.photo {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: rgb(186, 182, 182);
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}

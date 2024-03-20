@@ -6,6 +6,7 @@ import FriendList from "./friends/FriendList";
 import friends from "./friends/friends.json";
 import TransactionHistory from "./transaction/TransactionHistory";
 import transactions from "./transaction/transactions.json";
+// import css from "./App.module.css";
 
 const App = () => {
   return (
