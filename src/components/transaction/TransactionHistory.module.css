@@ -1,8 +1,9 @@
 .table {
-  width: 75%;
+  width: 600px;
   margin: auto;
   border: 1px solid black;
   border-collapse: collapse;
+  justify-content: center;
 }
 
 .title {
@@ -13,7 +14,7 @@
 .item,
 .item-type {
   text-align: center;
-  border: 1px solid black;
+  border: 2px solid black;
   text-transform: capitalize;
 }
 

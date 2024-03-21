@@ -3,7 +3,7 @@ import css from "./Profile.module.css";
 const Profile = ({ image, name, tag, location, stats }) => {
   return (
     <div className={css.profile}>
-      <div className={css.avatar}>
+      <div className={css.card}>
         <img className={css.photo} src={image} alt="User avatar" />
         <p className={css.name}>{name}</p>
         <p className={css.tag}>@{tag}</p>
