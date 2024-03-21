@@ -1,9 +1,10 @@
 .profile {
-  height: 200px;
-  width: 200px;
+  text-align: center;
+  height: 400px;
+  width: 400px;
   margin: 40px;
   font-size: 20px;
-  border: 4px solid black;
+  border: 2px solid black;
 }
 .avatar {
 }
